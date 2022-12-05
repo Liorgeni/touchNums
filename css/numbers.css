@@ -1,0 +1,54 @@
+body {
+  background-color: #9cf1f8;
+  background: linear-gradient(to top left, #d8eb5f, #f0ff22);
+  height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+.board {
+  background-color: rgb(181, 102, 238);
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.board tr :hover {
+  cursor: pointer;
+  background-color: rgb(255, 214, 9);
+}
+
+.occupied {
+  background-color: rgb(229, 226, 30);
+}
+
+button {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #b54dff;
+  transition: 0.75s;
+}
+
+.timeSet {
+  /* margin: 30px; */
+  margin-bottom: 10px;
+  padding-top: 5px;
+  color: #000000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+}
