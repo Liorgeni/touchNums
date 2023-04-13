@@ -13,7 +13,6 @@ https://liorgeni.github.io/touchNums/
 
 ## How to Play
 
-The objective of the game is to clear the minefield without detonating any mines. The player can click on a square to reveal its contents, which will be one of the following:
 <li>When the game starts, numbers will appear randomly on the screen.</li>
 <li>There are 3 difficulity levels: Easy: 16 numbers. Medium: 24 numbers. Hard : 36 numbers</li>
 <li>Touch the numbers in ascending order, starting from 1.</li>
